@@ -15,41 +15,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Oranienbaum:regular" rel="stylesheet" />
 </head>
 
 <body>
+  
+    <nav class="navbar">
+        <li class="list-item "><a href="#Home">Home</a> </li>
+        <li class="list-item "><a href="#Projects">Projects
+            </a> </li>
+        <li class="list-item "><a href="#Contact">Contact</a> </li>
 
-    <section class="Header ">
-        <!-- <nav class="navbar"> -->
-            <ul class="list">
-                <a href="#Home">
-                    <li><i class="fa-solid fa-house icon fa-sm" style="color: #000000;"></i></li>
-                </a>
-                <a href="#Projects">
-                    <li> <i class="fa-solid fa-laptop-code icon fa-sm" style="color: #000000;"></i></li>
-                </a>
-                <a href="#Contact">
-                    <li><i class="fa-regular fa-user icon fa-sm" style="color: #000000;"></i></li>
-                </a>
+    </nav>
+  
 
-            </ul>
-
-        <!-- </nav> -->
-
-        <header class="intro" id="Home">
+    <section class="Header" id="Home">
+        <!-- <img src="pexels-aleksandar-pasaric-2339009.jpg" alt="" class="bg-img"> -->
+        <header class="intro">
+            <!-- <div class="cont"> -->
             <div class="about">
                 <div class="paragraph">
                     <div class="title">front-end developer</div>
                     <div class="bodyy">
-                        Hi, I'm Ansh Dev Udassi, a skilled web developer based in Pakistan. Proficient in Next.js, HTML,
+                        Hi, I'm Ansh Dev Udassi, a skilled web developer based in Pakistan. Proficient in Next.js,
+                        HTML,
                         CSS, Java, and WordPress, I craft engaging and responsive digital experiences.
                     </div>
                 </div>
                 <div class="picture">
-                    <img src="WhatsApp Image 2023-09-01 at 14.55.26_f0494f22.jpg" alt="">
+                    <img src="WhatsApp Image 2023-09-01 at 14.55.26_f0494f22.jpg" alt="" class="my-image">
 
                 </div>
             </div>
+
             <!-- html,css,nextjs,java,wordpress -->
             <div class="tech">
                 <div class="heading">Tech stack || </div>
@@ -62,7 +60,7 @@
                 </div>
             </div>
         </header>
-
+        <!-- </div> -->
     </section>
 
     <section class="Projects" id="Projects">
@@ -75,32 +73,11 @@
         <div class="car-rental project">
             <img src="rental.png" alt="" class="project-img">
             <div class=" project-description">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                    maxime magnam fugit dolorum provident saepe ad! Eum porro consequuntur hic veritatis assumenda
-                    aspernatur laboriosam corrupti commodi ullam ut repellat unde, dolores fugit maxime vel eius
-                    consequatur
-                    nam nulla molestiae voluptatibus?
-                </p>
-                <ul class="tech-used">
-                    <li>React</li>
-                    <li>CSS</li>
-
-                </ul>
-
-                <a class="visit" href="https://react-car-rental.vercel.app/ " target="_blank">ROYAL RENTALS <i
-                        class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #000000;"></i></a>
-
-            </div>
-        </div>
-
-        <div class="car-rental project">
-            <img src="restraunt.png" alt="" class="project-img">
-            <div class=" project-description">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                    maxime magnam fugit dolorum provident saepe ad! Eum porro consequuntur hic veritatis assumenda
-                    aspernatur laboriosam corrupti commodi ullam ut repellat unde, dolores fugit maxime vel eius
-                    consequatur
-                    nam nulla molestiae voluptatibus?
+                <p class="para"> Crafted a dynamic car rental platform, Royal Rental, using React. Meticulously
+                    integrating Figma
+                    designs, I developed a user-friendly interface and seamless functionality. Leveraging cutting-edge
+                    technologies, I created an immersive online experience for users, showcasing my expertise in web
+                    development and design.
                 </p>
                 <ul class="tech-used">
                     <li>React</li>
@@ -108,8 +85,32 @@
 
                 </ul>
                 <div class="visit">
-                    <a class="visit" href="https://restraunt-three.vercel.app/#home" target="_blank">GERICHT <i
-                            class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #000000;"></i></a>
+
+                    <a class="visit" href="https://react-car-rental.vercel.app/ " target="_blank"
+                        style="color: white;">ROYAL RENTALS <i class="fa-solid fa-up-right-from-square fa-fade fa-lg"
+                            style="color: #ffff;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="car-rental project">
+            <img src="restraunt.png" alt="" class="project-img">
+            <div class=" project-description">
+                <p class="para"> Developed Gericht, a React restaurant website, drawing inspiration from JavaScript
+                    Mastery designs.
+                    Meticulously crafted interactive UI, translating Figma concepts into seamless user experience.
+                    Expertly combined design aesthetics with advanced development, showcasing creativity and technical
+                    proficiency in creating visually engaging and functional web applications.
+                </p>
+                <ul class="tech-used">
+                    <li>React</li>
+                    <li>CSS</li>
+
+                </ul>
+                <div class="visit">
+                    <a class="visit" href="https://restraunt-three.vercel.app/#home" target="_blank"
+                        style="color: white;">GERICHT <i class="fa-solid fa-up-right-from-square fa-fade fa-lg"
+                            style="color: #ffff;"></i></a>
                 </div>
             </div>
 
@@ -118,20 +119,22 @@
         <div class="car-rental project">
             <img src="coffee.png" alt="" class="project-img">
             <div class=" project-description">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                    maxime magnam fugit dolorum provident saepe ad! Eum porro consequuntur hic veritatis assumenda
-                    aspernatur laboriosam corrupti commodi ullam ut repellat unde, dolores fugit maxime vel eius
-                    consequatur
-                    nam nulla molestiae voluptatibus?
+                <p class="para"> "Designed a vibrant coffee shop website using HTML and CSS, focusing on elegant user
+                    interface and
+                    smooth navigation. Applied creative layouts and responsive design techniques for optimal user
+                    experience. Demonstrated proficiency in front-end development, emphasizing visual appeal and
+                    functionality."
                 </p>
                 <ul class="tech-used">
                     <li>Html</li>
                     <li>CSS</li>
 
                 </ul>
-                <a class="visit" href="https://newbies-tech.github.io/coffee-shop-website/" target="_blank">COFFEE HOUSE
-                    <i class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #000000;"></i></a>
-
+                <div class="visit">
+                    <a class="visit" href="https://newbies-tech.github.io/coffee-shop-website/" target="_blank"
+                        style="color: white;">COFFEE HOUSE
+                        <i class="fa-solid fa-up-right-from-square fa-fade fa-lg" style="color: #ffff;"></i></a>
+                </div>
             </div>
         </div>
 
@@ -147,7 +150,8 @@
         <div class="icon"> <i class="fa-solid fa-repeat fa-2xl" style="color: #536e9d;"></i></div>
 
 
-        <div class="quote" style="color: white; margin-top: 50px; font-size: 2rem;">"Revving Cars, Crafting Code Daily"
+        <div class="quote" style="color: white;font-family: Gabarito; margin-top: 50px; font-size: 2rem;">"Revving Cars,
+            Crafting Code Daily"
         </div>
         <!-- <p> <i class="fa-solid fa-envelope" style="color: #ffffff;"></i> : <a href="mailto:anshdev321@gmail.com">Ansh Dev</a></p> -->
         <div class="socials">
@@ -171,7 +175,8 @@
 
 
         </div>
-        <p style="font-size: 1.75rem; color: white;">- Open For Hiring - </p>
+
+        <p style="font-size: 1.75rem; font-family: Gabarito; color: white;">- Open For Hiring - </p>
 
 
     </section>
