@@ -536,18 +536,23 @@ a {
     .c{
         margin-top: 20px;
     }
+    section{
+        padding: 0px;
+    }
+    .images{
+        display: flex;
+        justify-content: center;
+    }
+    .Header{
+        padding: 0px;
+        height: max-content;
+    }
     .contact{
         padding: 20px;
-        height: 100vh;
+        height:100vh;
     }
     .icon{
         margin-top: 20px;
-
-    }
-    .end-statement{
-
-    }
-    .quote{
 
     }
 
