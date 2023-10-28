@@ -234,6 +234,8 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0px;
+
 
 }
 
@@ -315,7 +317,7 @@ a {
     height: 25px;
     border-radius: 20%;
     margin-bottom: 100px;
-  /* filter: drop-shadow(0px -15px 7px white); */
+    /* filter: drop-shadow(0px -15px 7px white); */
 }
 
 .socials a,
@@ -346,5 +348,207 @@ a {
     padding: 15px 15px;
     outline: 2px solid white;
     transition: 0.4s ease-in-out;
+
+}
+
+@media screen and (max-width:991px) {
+    .navbar {
+        display: none;
+    }
+
+    .tech {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 25px 25px;
+        width: fit-content;
+        color: #CFCA16;
+
+
+    }
+
+    .picture {
+        width: fit-content;
+    }
+
+    .picture img {
+        height: 25vh;
+        width: 25vh;
+        margin-top: 20px;
+
+
+    }
+
+    .title-p {
+
+        font-size: 2rem;
+        font-family: Agbalumo;
+
+
+    }
+
+    .title {
+        font-size: 2.5rem;
+
+    }
+
+    .paragraph {
+        margin-right: 20px;
+        font-size: 1rem;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .tech {
+        display: inline;
+        justify-content: start;
+        align-items: center;
+        padding: 25px 25px;
+        width: fit-content;
+        color: #CFCA16;
+
+
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+
+        font-size: 1.65rem;
+        opacity: 0.8;
+        margin: 5px 25px;
+    }
+
+    .images img {
+        cursor: pointer;
+        transition: 0.6s ease;
+
+        margin: 10px;
+    }
+
+    .images img:hover {
+        transition: 0.3s ease;
+        transform: translate3d(0px, 0px, 100px);
+        /* outline: 2px solid black; */
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 25px 25px;
+        background: rgba(255, 255, 255, 0.059);
+        padding: 25px 15px;
+        border-radius: 40px;
+        filter: drop-shadow(2px -2px 7px black);
+    }
+
+    .project-img {
+        width: 100%;
+        height: 300px;
+        border-radius: 40px;
+        margin-right: 0px;
+    }
+
+    .heading-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Projects {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tech-used {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .tech-used li {
+        width: 50%;
+        list-style: none;
+        margin: 0px 25px;
+        padding: 5px 10px;
+        opacity: 0.8;
+        outline: 2px dashed #CFCA16;
+        color: #F9F7F3;
+    
+    }
+
+    .underlinec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 10px solid white;
+        width: 40px;
+        height: 25px;
+        border-radius: 20%;
+        margin-bottom: 100px;
+        /* filter: drop-shadow(0px -15px 7px white); */
+    }
+    
+    .socials a,
+    .socials p {
+        color: white;
+    }
+    
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+    
+    }
+    
+    .socials :hover {
+        background-color: #536e9d;
+    
+    }
+    
+    .icons {
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        margin: 0px 15px;
+        padding: 10px 10px;
+        outline: 2px solid white;
+        transition: 0.4s ease-in-out;
+    
+    }
+    .c{
+        margin-top: 20px;
+    }
+    .contact{
+        padding: 20px;
+        height: 100vh;
+    }
+    .icon{
+        margin-top: 20px;
+
+    }
+    .end-statement{
+
+    }
+    .quote{
+
+    }
 
 }
